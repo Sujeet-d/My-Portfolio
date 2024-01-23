@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  font-family: "Salsa", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  background-color: black;
+  /* overflow-y: auto; */
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+h1, h2, p, a {
+  color: white;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.btn {
+  padding: 12px 32px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  background-color: #ff1c68;
+  border-radius: 3px;
+  border-radius: 7px;
+  color: white;
+  border: 1px solid whitesmoke;
+  /* border: 2px solid transparent; */
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.9s;
+  /* box-shadow: #1eff0075 0px 5px 15px; */
+}
+
+.btn-light {
+  background-color: slategray;
+  color: white;
+  transition: 0.9s;
+  /* box-shadow: rgb(255 255 255 / 33%) 0px 5px 15px; */
+}
+
+.btn:hover {
+  background: #5a0d0d;
+  /* background: transparent; */
+  color: whitesmoke;
+  /* border: 2px solid #ff1c68; */
+  transition: 0.3s;
+  box-shadow: rgb(62, 72, 73) 0px 5px 15px;
+}

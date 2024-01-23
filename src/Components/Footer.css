@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
+
+.footer {
+    width: 100%;
+    padding: 2.1rem 0 0 0;
+    background-color: rgb(20 0 0);
+    /* border-top: 3px solid lavenderblush; */
+    /* border-top-right-radius: 10%; */
+    background: url(../../public/image/foot2.png);
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    border-top: 3px solid darkgrey;
+}
+
+.footer-container {
+    max-width: 1000px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+}
+
+.left {
+    height: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 0;
+}
+
+.location {
+    display: flex;
+    margin-bottom: 0.8rem;
+}
+
+.location p {
+    line-height: 25px;
+    font-family: "Salsa", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.right {
+    height: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.social {
+    margin: 2rem 0;
+}
+
+h4 {
+    font-size: 1.1rem;
+    padding-bottom: 0.9rem;
+    color: black;
+    font-family: "Salsa", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.right p{
+    font-size: 1.1rem;
+    line-height: 26px;
+    color: navy;
+    font-weight: bold;
+    font-family: "Salsa", cursive;
+    font-weight: 400;
+    font-style: normal;
+    /* font-weight: 600; */
+}
+
+.footp p{
+    color: navy;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 640px) {
+    .footer-container {
+        grid-template-columns: 1fr;
+    }
+
+    h4 {
+        font-size: 1rem;
+        padding-bottom: 0.8rem;
+    }
+    
+    p {
+        font-size: 1rem;
+        line-height: 25px;
+    }
+
+    .left {
+        padding: 3rem 1rem;
+    }
+
+    .footer-container {
+        grid-gap: 10px;
+    }
+
+    .social {
+        margin-bottom: 0;
+        text-align: center;
+    }
+}

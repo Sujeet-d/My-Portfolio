@@ -1,0 +1,111 @@
+.work-container{
+    background: linear-gradient(139deg, rgba(0,0,0,1) 58%, rgba(73,9,121,0.8407738095238095) 100%);
+    border: 3px solid darkgrey;
+}
+
+.project-heading{
+    text-align: center;
+    padding: 3rem 0 2rem 0;
+    color: aqua;
+}
+
+.project-container{
+    max-width: 1180px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 70px;
+    padding-bottom: 5rem;
+}
+
+.project-card{
+    /* background: rgb(10, 10, 10); */
+    padding: 1rem 1rem;
+    /* border: 1px solid darkgrey; */
+    border-radius: 5px;
+    transition: 0.7s;
+    /* border: none; */
+    border: 1px dashed #00c9ff;
+}
+
+.project-card img{
+    width: 100%;
+    border-radius: 5px;
+    /* height: 40%; */
+}
+
+.project-title{
+    color: white;
+    padding: 1.5rem 0;
+    font-size: 1.7rem;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.pro-details p{
+    padding-bottom: 1rem;
+    font-size: 0.8rem;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    text-align: justify;
+    /* font-weight: bold; */
+    color: whitesmoke;
+    line-height: 1.3rem;
+    /* background-clip: text;
+    -webkit-text-fill-color: transparent; */
+}
+
+.pro-btns{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0 0.1rem 0;
+}
+
+/* .pro-btns1{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0 0.1rem 0;
+    position: relative;
+    top: 29px;
+} */
+
+.pro-btns1{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0 0.1rem 0;
+}
+
+.pro-btns btn {
+    padding: 0.5rem 0rem;
+    box-shadow: rgb(0, 255, 255) 5px 3px 10px, rgb(255, 0, 242) -5px -3px 6px;
+}
+
+a.btn.btn2{
+    background-color:darkgrey;
+    border: 2px solid transparent;
+    padding: 0.4rem 0.7rem ;
+    font-size: 0.9rem;
+    color: black;
+}
+
+a.btn.btn2:hover{
+    border: 2px solid darkgrey;
+    background: transparent;
+    color: whitesmoke;
+}
+
+@media screen and (max-width:740px){
+    .project-container{
+        max-width: 80%;
+        margin: auto;
+        grid-template-columns: 1fr;
+    }
+
+    .pro-btns1{
+        display: flex;
+        justify-content: space-between;
+        padding: 0.5rem 0 0.1rem 0;
+        position: relative;
+        top: 1px;
+    }
+}
